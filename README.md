@@ -15,11 +15,11 @@ OpenCV:4.8.0
 After downloading the model, modify the model path in main.cpp.
 
 ```c++
-    std::string model_dir = "D:/code/PaddleOCR/model/";
-    FLAGS_det_model_dir = model_dir + "ch_PP-OCRv4_det_server_infer";
-    FLAGS_rec_model_dir = model_dir + "ch_PP-OCRv4_rec_server_infer";
-	// image path
-	FLAGS_image_dir = "D:/12.jpg";
+std::string model_dir = "D:/code/PaddleOCR/model/";
+FLAGS_det_model_dir = model_dir + "ch_PP-OCRv4_det_server_infer";
+FLAGS_rec_model_dir = model_dir + "ch_PP-OCRv4_rec_server_infer";
+// image path
+FLAGS_image_dir = "D:/12.jpg";
 
 ```
 
@@ -27,5 +27,5 @@ After downloading the model, modify the model path in main.cpp.
 
 ## Acknowledgement
 
-[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+1.[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
