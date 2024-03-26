@@ -1,4 +1,4 @@
-# PaddleOCR c++ infet 
+# PaddleOCR c++ infer
 
 Build the project using VS2019 and cmake on win10.
 
